@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module 1</title>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        #head {
+            display: inline-block;
+            padding: 15px;
+            font-weight: bold;
+        }
+
+        #heading {
+            background-color: rgb(10, 10, 10);
+            color: rgb(214, 245, 245);
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            font-weight: 900;
+        }
+
+        body {
+            background-color: rgb(235, 207, 222);
+            margin: 0;
+            padding: 0;
+        }
+
+        .food_list {
+            text-align: center;
+            display: block;
+            color: gray;
+            font-weight: 900;
+        }
+
+        .food_img_list {
+            width: 617px;
+            height: 367px;
+        }
+
+        .food_menu {
+            list-style: none;
+            text-decoration: double;
+            color: rgb(7, 7, 7);
+            font-family: fantasy;
+        }
+
+        .food_menu:hover {
+            color: cadetblue;
+        }
+    </style>
+</head>
+
+<body>
+    <dev id="headingDev">
+        <ul id="heading">
+            <li id="head">Index</li>
+            <li id="head">Food</li>
+            <li id="head">About</li>
+        </ul>
+    </dev>
+    <dev>
+        <h2 style="color: rgb(225, 253, 212); padding-left: 15px;">Top 5 favourite Foods :</h1>
+            <ul class="food_menu">
+                <li> <a class="food_menu" href="#briyani">Briyani</a></li>
+                <li><a class="food_menu" href="#sambar">Sambar</a></li>
+                <li> <a class="food_menu" href="#vegbriyani"> veg-briyani</a></li>
+                <li> <a class="food_menu" href="#idly">idly</a></li>
+                <li> <a class="food_menu" href="#dosa">dosa</a></li>
+            </ul>
+    </dev>
+    <dev class="food_list" id="briyani">
+        <img class="food_img_list"
+            src="https://recipesofhome.com/wp-content/uploads/2020/06/chicken-biryani-recipe-720x720.jpg"
+            alt="Image Not available">
+        <p>Briyani</p>
+    </dev>
+
+    <dev class="food_list" id="vegbriyani">
+        <img class="food_img_list"
+            src="https://recipesofhome.com/wp-content/uploads/2020/06/veg-biryani-recipe-735x490.jpg"
+            alt="Image Not available">
+        <p>Veg Briyani</p>
+    </dev>
+
+    <dev class="food_list" id="sambar">
+        <img class="food_img_list"
+            src="https://vismaifood.com/storage/app/uploads/public/1ef/dbb/259/thumb__700_0_0_0_auto.jpg"
+            alt="Image Not available">
+        <p>Sambar</p>
+    </dev>
+
+    <dev class="food_list" id="idly">
+        <img class="food_img_list"
+            src="https://assets.cntraveller.in/photos/627a4112cbc04ca509426501/4:3/w_2932,h_2199,c_limit/Vegetarian%20South%20Indian%20breakfast%20thali%20-%20Idli%20vada%20sambar%20chutney%20-%20Image%20ID%202H3783R%20(RF).jpg"
+            alt="Image Not available">
+        <p>Idly</p>
+    </dev>
+
+    <dev class="food_list" id="dosa">
+        <img class="food_img_list"
+            src="https://images.lifestyleasia.com/wp-content/uploads/sites/7/2022/04/14144824/untitled-design-8.jpeg"
+            alt="Image Not available" />
+        <p>Dosa</p>
+    </dev>
+
+</body>
+
+</html>
